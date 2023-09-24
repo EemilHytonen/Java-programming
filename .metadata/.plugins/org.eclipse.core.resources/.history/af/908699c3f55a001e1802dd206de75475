@@ -1,0 +1,64 @@
+package sum;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+/**
+ * Servlet implementation class AdditionServlet
+ */
+public class AdditionServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public AdditionServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	
+		// Set the content type to HTML
+        response.setContentType("text/html");
+
+        // Get the parameters from the request
+        String num1Str = request.getParameter("num1");
+        String num2Str = request.getParameter("num2");
+
+        // Convert the parameters to integers
+        int num1 = Integer.parseInt(num1Str);
+        int num2 = Integer.parseInt(num2Str);
+
+        // Calculate the sum
+        int sum = num1 + num2;
+
+        // Create an HTML response
+        String htmlResponse = "<html><body>";
+        htmlResponse += "<h2>Sum of " + num1 + " and " + num2 + " is: " + sum + "</h2>";
+        htmlResponse += "</body></html>";
+
+        // Send the HTML response to the client
+        response.getWriter().write(htmlResponse);
+		
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}
