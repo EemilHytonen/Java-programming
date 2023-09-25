@@ -1,9 +1,0 @@
-<servlet>
-
-	<servlet-name>AdditionServlet</servlet-name>
-	<servlet-class>assignment_1</servlet-class>
-</servlet>
-<servlet-mapping>
-	<servlet-name>assignment_1</servlet-name>
-	<url-pattern>/add</url-pattern>	
-</servlet-mapping>

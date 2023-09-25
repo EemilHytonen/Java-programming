@@ -140,7 +140,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\Eemil\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Eemil\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Assignment_Java_1" path="/Assignment_Java_1" reloadable="true" source="org.eclipse.jst.jee.server:Assignment_Java_1"/></Host>
+      <Context docBase="C:\Users\Eemil\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Eemil\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Assignment_Java_1" path="/Assignment_Java_1" reloadable="true" source="org.eclipse.jst.jee.server:Assignment_Java_1"/><Context docBase="C:\Users\Eemil\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Assignment_Java_2.1" path="/Assignment_Java_2.1" reloadable="true" source="org.eclipse.jst.jee.server:Assignment_Java_2.1"/></Host>
     </Engine>
   </Service>
 </Server>
