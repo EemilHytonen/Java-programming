@@ -43,13 +43,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="vamk"/>
 			<item value="Assignments"/>
 			<item value="assignments"/>
-			<item value="vamk"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Assignment_Java_2"/>
 			<item value="Assignment_1"/>
 			<item value="assignment1"/>
 			<item value="database_demo"/>

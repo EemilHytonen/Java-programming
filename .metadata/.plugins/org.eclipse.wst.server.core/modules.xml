@@ -2,5 +2,7 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:Assignment_Java_2.1" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Assignment_Java_1" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Java_Assigment_3_Maven" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Assignment_Java_3" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Assignment_1_Java" serverId="Tomcat v10.1 Server at localhost"/>
 </modules>
